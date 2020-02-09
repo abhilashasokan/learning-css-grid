@@ -2,7 +2,8 @@
   grid-column: center-start / center-end;
   display: grid;
   margin: 15rem 0;
-  grid-template-columns: repeat(3, 1fr);
+  // Setting 250px min width and make responsive
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 6rem;
   align-items: start;
 }
